@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%236366f1'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='50' font-weight='bold' fill='white'>SA</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light">
+    
+    <!-- Primary Meta Tags -->
+    <title>Sarapharaj Ansari | Full Stack Web Developer & AI Enthusiast</title>
+    <meta name="title" content="Sarapharaj Ansari | Full Stack Web Developer & AI Enthusiast" />
+    <meta name="description" content="Portfolio of Sarapharaj Ansari - Computer Science & Engineering student at BIET Lucknow, Full Stack MERN Developer, and AI/ML Enthusiast building scalable web applications." />
+    <meta name="keywords" content="Sarapharaj Ansari, Full Stack Developer, MERN Stack, React Developer, Node.js, AI, Machine Learning, Portfolio, Bansal Institute of Engineering and Technology Lucknow" />
+    <meta name="author" content="Sarapharaj Ansari" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sarapharaj Ansari | Full Stack Web Developer" />
+    <meta property="og:description" content="Explore full stack MERN projects, AI/ML applications, skills, and engineering journey of Sarapharaj Ansari." />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Anti-FOUC script for dark/light mode -->
+    <script>
+      (function() {
+        try {
+          const stored = localStorage.getItem('theme');
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (stored === 'light') {
+            document.documentElement.classList.remove('dark');
+            document.documentElement.classList.add('light');
+          } else if (stored === 'dark' || (!stored && prefersDark)) {
+            document.documentElement.classList.add('dark');
+            document.documentElement.classList.remove('light');
+          } else {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased selection:bg-indigo-500 selection:text-white transition-colors duration-300 min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
