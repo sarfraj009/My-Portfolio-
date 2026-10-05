@@ -135,27 +135,27 @@ export function HousePricePreview() {
         </span>
       </div>
 
-      <div >
-        {/* <div className="flex justify-between items-center">
+      <div className="relative z-10 bg-slate-900/90 border border-emerald-500/40 rounded-xl p-3 shadow-xl backdrop-blur-md">
+        <div className="flex justify-between items-center">
           <span className="text-xs font-bold text-white">Estimated Valuation:</span>
           <span className="text-sm font-extrabold font-mono text-emerald-400">₹74.5 Lakhs</span>
-        </div> */}
+        </div>
         
         {/* Regression Visual Bar */}
-        <div >
-          <div >
-            {/* <span>R² Score: 0.89</span>
-            <span>MAE: ±2.4%</span> */}
+        <div className="mt-2.5 space-y-1">
+          <div className="flex justify-between text-[9px] font-mono text-slate-400">
+            <span>R² Score: 0.89</span>
+            <span>MAE: ±2.4%</span>
           </div>
-          <div >
-            <div  />
+          <div className="w-full bg-slate-800 rounded-full h-1.5 overflow-hidden">
+            <div className="bg-gradient-to-r from-emerald-500 to-teal-400 h-1.5 rounded-full w-[89%]" />
           </div>
         </div>
       </div>
 
-      <div >
-        {/* <span>Scikit-learn Pipeline</span> */}
-        {/* <span className="text-emerald-400">Real-time Inference</span> */}
+      <div className="flex items-center justify-between text-[10px] font-mono text-slate-400 relative z-10">
+        <span>Scikit-learn Pipeline</span>
+        <span className="text-emerald-400">Real-time Inference</span>
       </div>
     </div>
   );
@@ -175,26 +175,26 @@ export function SpamEmailPreview() {
         </span>
       </div>
 
-      {/* <div className="relative z-10 bg-slate-900/90 border border-amber-500/40 rounded-xl p-3 shadow-xl backdrop-blur-md"> */}
-        {/* <div className="flex justify-between items-center">
+      <div className="relative z-10 bg-slate-900/90 border border-amber-500/40 rounded-xl p-3 shadow-xl backdrop-blur-md">
+        <div className="flex justify-between items-center">
           <span className="text-xs font-bold text-white">Classification Result:</span>
           <span className="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-rose-500/20 text-rose-400 border border-rose-500/40">
             SPAM DETECTED
           </span>
-        </div> */}
-        {/* <div className="mt-2 text-[10px] font-mono text-slate-400 bg-slate-800/80 p-1.5 rounded line-clamp-1 border border-slate-700">
+        </div>
+        <div className="mt-2 text-[10px] font-mono text-slate-400 bg-slate-800/80 p-1.5 rounded line-clamp-1 border border-slate-700">
           "URGENT: Claim your lottery winnings now..."
-        </div> */}
-        {/* <div className="mt-1.5 flex justify-between text-[9px] font-mono text-slate-400">
+        </div>
+        <div className="mt-1.5 flex justify-between text-[9px] font-mono text-slate-400">
           <span>Confidence: 99.4%</span>
           <span className="text-amber-400">Tokens analyzed: 38</span>
-        </div> */}
-      {/* </div> */}
+        </div>
+      </div>
 
-      {/* <div className="flex items-center justify-between text-[10px] font-mono text-slate-400 relative z-10">
+      <div className="flex items-center justify-between text-[10px] font-mono text-slate-400 relative z-10">
         <span>Interactive Streamlit UI</span>
         <span className="text-amber-400">Text Stemming</span>
-      </div> */}
+      </div>
     </div>
   );
 }
