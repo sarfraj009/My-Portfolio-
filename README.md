@@ -21,12 +21,11 @@ A modern, premium, and fully responsive developer portfolio built for **Saraphar
    - Dynamic active section highlighting on scroll.
    - Dark / Light mode toggle with anti-FOUC initialization and `localStorage` persistence.
    - Mobile hamburger menu drawer with smooth slide-in animations.
-   - Quick "Resume" trigger button opening PDF directly.
 
 2. **Hero Section**:
    - Availability badge: *"Open to Internship & Full-Time Opportunities"* with pulsing status indicator.
    - Interactive typing effect cycling through professional roles.
-   - Quick action CTAs: *View Projects*, *Download Resume*, *Contact Me*.
+   - Quick action CTAs: *View Projects*, *Contact Me*.
    - Interactive Developer Code Terminal with multi-tab syntax inspection (`developer.js`, `stack.json`, `metrics`) and one-click snippet copying.
 
 3. **About Me**:
@@ -65,13 +64,13 @@ A modern, premium, and fully responsive developer portfolio built for **Saraphar
 
 10. **Resume Section**:
     - Direct PDF download (`Sarapharaj_Ansari_Resume.pdf`).
-    - Quick view in new browser tab.
-    - Verified CGPA (7.79/10), Digi Coders Technologies training, and MERN skillsets summary.
+    - Interactive in-app resume modal preview and external new tab view.
+    - Verified education at AKTU Lucknow (Cumulative 74% through 6th sem), MERN Stack Developer Trainee training, and Java skillsets.
 
 11. **Contact Section**:
-    - Direct phone & WhatsApp connection (`+91 9682920950`).
+    - Direct phone connection (`9682920950`).
     - Validated contact form with interactive loading and confetti celebration on submit.
-    - Direct contact info cards with instant copy-to-clipboard for email (`sarfrajansari0127@gmail.com`).
+    - Direct contact info cards with instant copy-to-clipboard for email (`sarfraj07202@gmail.com`).
 
 12. **Footer**:
     - Designed & Built by Sarapharaj Ansari, quick navigation links, social channels, copyright 2026, and smooth scroll-to-top button.
@@ -100,7 +99,6 @@ my-portfolio/
 │   │   ├── ProjectModal.jsx
 │   │   ├── ProjectPreviews.jsx
 │   │   ├── Projects.jsx
-│   │   ├── Resume.jsx
 │   │   └── Skills.jsx
 │   ├── data/
 │   │   └── portfolioData.js  # Centralized editable data file

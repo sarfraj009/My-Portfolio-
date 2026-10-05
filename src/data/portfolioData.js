@@ -1,25 +1,26 @@
 export const personalInfo = {
   name: "Sarapharaj Ansari",
   shortName: "Sarapharaj",
-  role: "Full Stack Web Developer | MERN Stack Developer | AI Enthusiast",
+  role: "Full Stack Developer (MERN) | Aspiring Java Full Stack Developer",
   roles: [
-    "Full Stack Web Developer",
-    "MERN Stack Specialist",
-    "AI & ML Enthusiast",
+    "Full Stack Developer (MERN)",
+    "Aspiring Java Full Stack Developer",
+    "React.js & Node.js Specialist",
     "Computer Science Engineer (2027)"
   ],
   education: "B.Tech in Computer Science & Engineering",
-  college: "Bansal Institute of Engineering & Technology, Lucknow",
+  college: "AKTU, Lucknow",
   graduation: "2027",
-  location: "Lucknow, Uttar Pradesh, India",
-  phone: "+91 9682920950",
-  email: "sarfrajansari0127@gmail.com",
+  location: "Lucknow, Uttar Pradesh 226001",
+  phone: "9682920950",
+  email: "sarfraj07202@gmail.com",
   github: "https://github.com/sarfraj009",
   linkedin: "https://www.linkedin.com/in/sarapharaj-ansari-516725331",
+  portfolio: "https://my-portfolio-tau-ruddy-44.vercel.app",
   resumeUrl: "/Sarapharaj_Ansari_Resume.pdf",
   availability: "Open to Internship & Full-Time Opportunities",
-  tagline: "Building scalable web applications with MERN, AI, and modern technologies.",
-  bio: "Computer Science & Engineering undergraduate passionate about crafting high-performance full-stack web applications and exploring intelligent AI/ML systems. Experienced in architecting robust RESTful backends, reactive user interfaces, and solving real-world challenges through clean, maintainable code."
+  tagline: "Aspiring Java & MERN Full Stack Developer crafting responsive, user-focused web solutions.",
+  bio: "Aspiring Java Full Stack Developer with hands-on internship experience building responsive, user-focused web applications. Skilled in Java, React.js, Node.js, Express.js, and MongoDB, with a strong foundation in core programming and problem-solving. Recognized for attention to detail, fast learning, and effective collaboration in team environments. Committed to writing clean, efficient code and delivering high-quality software solutions."
 };
 
 export const stats = [
@@ -292,19 +293,19 @@ export const journeyTimeline = [
 ];
 
 export const educationDetails = {
-  degree: "Bachelor of Technology (B.Tech)",
+  degree: "Bachelor of Technology (B. Tech)",
   field: "Computer Science & Engineering",
-  institution: "Bansal Institute of Engineering & Technology",
+  institution: "AKTU, Lucknow",
   location: "Lucknow, Uttar Pradesh, India",
-  duration: "2023 – 2027",
-  status: "Undergraduate (Pursuing)",
-  cgpa: "7.79 / 10",
+  duration: "Graduation: 2027",
+  status: "4th Year (Final Year)",
+  cgpa: "74% (Aggregate through 6th Sem)",
   highlights: [
-    "Academic Performance: CGPA 7.79 / 10 in B.Tech CSE (Current)",
+    "Academic Performance: Cumulative Score 74% (aggregate through 6th Semester)",
     "Core coursework in Data Structures, Algorithms, and Object-Oriented Software Design",
     "Hands-on lab work in Database Systems (SQL & MongoDB) and Computer Networks",
-    "Class XII: MAVM, Kushinagar | UP Board | 64.6% (2023)",
-    "Class X: KIMC, Deoria | UP Board | 84.6% (2021)"
+    "Class XII (Senior Secondary): KIMC Deoria | UP Board Kushinagar | 2023 | Score: 64.6%",
+    "Class X (Secondary): MAVM Kushinagr | UP Board Kushinagar | 2021 | Score: 84.6%"
   ],
   relevantCourses: [
     "Data Structures & Algorithms",

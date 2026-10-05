@@ -16,6 +16,7 @@ export default function Navbar({ theme, toggleTheme }) {
     { name: 'Experience', href: '#experience' },
     { name: 'Education', href: '#education' },
     { name: 'Certifications', href: '#certifications' },
+    { name: 'Resume', href: '#resume' },
     { name: 'Contact', href: '#contact' },
   ];
 
