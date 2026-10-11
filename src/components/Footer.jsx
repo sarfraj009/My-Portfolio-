@@ -1,6 +1,7 @@
-import { ArrowUp, Mail, Heart, Code2 } from 'lucide-react';
+import { ArrowUp, Mail } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './Icons';
 import { personalInfo } from '../data/portfolioData';
+import Logo from './Logo';
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -28,9 +29,7 @@ export default function Footer() {
           {/* Brand & Tagline */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <div className="flex items-center gap-2 mb-2">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-indigo-600 to-purple-600 flex items-center justify-center text-white font-bold text-xs">
-                &lt;SA/&gt;
-              </div>
+              <Logo size="sm" withGlow={false} />
               <span className="text-lg font-extrabold text-slate-900 dark:text-white tracking-tight">
                 {personalInfo.name}
               </span>

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Sun, Moon, FileText, ChevronRight } from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
+import Logo from './Logo';
 
 export default function Navbar({ theme, toggleTheme }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -85,20 +86,11 @@ export default function Navbar({ theme, toggleTheme }) {
           <a
             href="#home"
             onClick={(e) => handleLinkClick(e, '#home')}
-            className="flex items-center gap-2 group cursor-pointer focus:outline-none focus:ring-2 focus:ring-indigo-500 rounded-lg p-1"
-            aria-label="Sarapharaj Ansari Home"
+            className="flex items-center group cursor-pointer focus:outline-none focus:ring-2 focus:ring-indigo-500 rounded-2xl p-1"
+            aria-label="Sarapharaj Ansari (SA) Home"
+            title="Sarapharaj Ansari (SA)"
           >
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 via-indigo-500 to-purple-500 flex items-center justify-center text-white font-bold shadow-md shadow-indigo-500/25 group-hover:scale-105 group-hover:shadow-indigo-500/40 transition-all">
-              <span className="font-mono text-sm tracking-tighter">&lt;SA/&gt;</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-lg font-extrabold tracking-tight text-slate-900 dark:text-white group-hover:text-indigo-500 transition-colors">
-                {personalInfo.shortName}
-              </span>
-              <span className="text-[10px] uppercase font-mono font-medium tracking-widest text-slate-500 dark:text-slate-400">
-                Full Stack Dev
-              </span>
-            </div>
+            <Logo size="default" />
           </a>
 
           {/* Desktop Navigation */}

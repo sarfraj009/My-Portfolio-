@@ -304,8 +304,8 @@ export const educationDetails = {
     "Academic Performance: Cumulative Score 74% (aggregate through 6th Semester)",
     "Core coursework in Data Structures, Algorithms, and Object-Oriented Software Design",
     "Hands-on lab work in Database Systems (SQL & MongoDB) and Computer Networks",
-    "Class XII (Senior Secondary): KIMC Deoria | UP Board Kushinagar | 2023 | Score: 64.6%",
-    "Class X (Secondary): MAVM Kushinagr | UP Board Kushinagar | 2021 | Score: 84.6%"
+    "Class XII (Senior Secondary): MAVM Kushinagar | UP Board | 2023 | Score: 64.6%",
+    "Class X (Secondary): KIMC Deoria | UP Board | 2021 | Score: 84.6%"
   ],
   relevantCourses: [
     "Data Structures & Algorithms",
